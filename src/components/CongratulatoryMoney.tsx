@@ -98,7 +98,7 @@ const CongratulatoryMoney = ({ config }: CongratulatoryMoneyProps) => {
         footer={[<Description>Khi bạn bấm vào số tài khoản, nó sẽ được sao chép dưới dạng văn bản có thể dán được.</Description>]}
       >
         <div>
-          <b>Ngân hàng Agribank {config.bride.name}</b>
+          <b>Ngân hàng Agribank</b>
           <Divider type="vertical" />
           <CopyToClipboard text={config.bride.accountNumber}>
             <Button
